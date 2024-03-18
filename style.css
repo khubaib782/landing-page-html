@@ -714,6 +714,13 @@ body {
   }
 }
 
+@media (max-width: 652px) {
+  .navbar-ul {
+    align-items: center;
+    gap: 18px;
+  }
+}
+
 @media (max-width: 720px) {
   .top-child {
     padding: 0;
@@ -899,5 +906,8 @@ body {
   }
   .red-button {
     margin-left: 20px;
+  }
+  .sec-div-two {
+    padding-left: 20px;
   }
 }
